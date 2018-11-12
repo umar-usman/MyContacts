@@ -1,0 +1,13 @@
+.idea/
+.vscode/
+node_modules/
+apidoc/
+logs/
+keys/
+
+*.log*
+*.pem
+
+config/*.json
+**/tokens.txt
+db
