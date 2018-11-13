@@ -2,7 +2,9 @@ import * as Router from 'koa-router';
 
 import * as ctrl from '../controllers/contact';
 
-const router = new Router();
+const router = new Router({
+    prefix: '/contact'
+});
 
 router.get('/', ctrl.getAll);
 
